@@ -1,0 +1,43 @@
+.column {
+    float: left;
+    width: 22.0%;
+    margin-bottom: 16px;
+    margin-left: 35px;
+    padding: 0 8px;
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    height: 360px;
+    border-radius: 15px;
+    background-color:transparent;
+    position: relative; /* Add this line to establish a positioning context */
+    z-index: 1; /* Add a higher z-index to ensure the cards are on top */
+  }
+  
+  .ccontainer {
+    padding: 0 16px;
+    margin: 0px;
+  }
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    background-color:orange;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .button:hover{
+    background-color:rgb(29, 101, 125);/* Change the background color on hover */
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+  }
+  
+  

@@ -1,0 +1,24 @@
+package com.klef.jfsd.springboot.service;
+
+
+import java.util.List;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import com.klef.jfsd.springboot.model.Book;
+import com.klef.jfsd.springboot.model.BookRequests;
+import com.klef.jfsd.springboot.model.Employee;
+import com.klef.jfsd.springboot.model.Member;
+public interface EmployeeService
+{
+public String AddBook(int id ,String bname,String byear, String bauthor,String bpublisher,MultipartFile request);
+public String updateEmployee(Employee emp);
+public Employee viewempbyid(int eid);
+public int updatestatus(String eid,boolean status);
+public List<BookRequests> viewallBookRequests(); 
+public Employee checkemplogin(String email,String password);
+
+
+
+
+}

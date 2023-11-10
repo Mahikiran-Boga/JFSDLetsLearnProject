@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 6 elements from project &apos;LetsLearnProject&apos;&#x0D;&#x0A;- Original project: &apos;LetsLearnProject&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     LetsLearnProject-0.0.1-SNAPSHOT&#x0D;&#x0A;     m2e-wtp&#x0D;&#x0A;     maven-archiver&#x0D;&#x0A;     maven-status&#x0D;&#x0A;     LetsLearnProject-0.0.1-SNAPSHOT.war&#x0D;&#x0A;     LetsLearnProject-0.0.1-SNAPSHOT.war.original" description="Delete elements" element1="target/LetsLearnProject-0.0.1-SNAPSHOT" element2="target/m2e-wtp" element3="target/maven-archiver" element4="target/LetsLearnProject-0.0.1-SNAPSHOT.war.original" element5="target/LetsLearnProject-0.0.1-SNAPSHOT.war" element6="target/maven-status" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1699143286890" subPackages="false" version="1.0"/>
+</session>

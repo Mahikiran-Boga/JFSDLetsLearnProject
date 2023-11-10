@@ -1,0 +1,418 @@
+package com.klef.jfsd.springboot.controller;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.sql.Blob;
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Optional;
+
+import javax.sql.rowset.serial.SerialException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.klef.jfsd.springboot.model.Book;
+import com.klef.jfsd.springboot.model.BookRequests;
+import com.klef.jfsd.springboot.model.Employee;
+import com.klef.jfsd.springboot.model.Member;
+import com.klef.jfsd.springboot.service.EmailManager;
+import com.klef.jfsd.springboot.service.MemberService;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+
+@Controller
+@RequestMapping("member")
+public class MemberController
+{
+	@Autowired
+	private MemberService memberService;
+	
+	
+	@Autowired
+	private EmailManager emailManager;
+	
+   @GetMapping("/")	
+   public ModelAndView index() {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("index");
+	   return mv;
+   }
+   
+   @GetMapping("home")
+   public ModelAndView homepage() {
+	   ModelAndView mv=new ModelAndView("index");
+	   return mv;
+   }
+	
+   @GetMapping("memlogin")
+   public ModelAndView loginpage()
+   {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("memlogin");
+	   return mv;
+   }
+	
+  @GetMapping("contactus")
+  public ModelAndView contactus() {
+	  ModelAndView mv=new ModelAndView("contactus");
+	  return mv;
+	  
+  }
+   
+   @GetMapping("about")
+   public ModelAndView aboutpage() {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("about");
+	   return mv;
+   }
+   
+   @GetMapping("newarrivals")
+   public ModelAndView newarrivalspage() {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("newarrivals");
+	   return mv;
+   }
+   
+   @GetMapping("memberreg")
+   public ModelAndView memberregistration() {
+	   ModelAndView mv=new ModelAndView("memberreg");
+	   return mv;
+   }
+   
+   @GetMapping("forgotpassword")
+   public ModelAndView forgotpassword() {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("forgotPassword");
+	   return mv;
+   }
+   
+   
+   
+   @PostMapping("register")
+   public ModelAndView register(HttpServletRequest request,@RequestParam("profile") MultipartFile file)throws IOException, SerialException, SQLException
+   {
+	   ModelAndView mv=new ModelAndView();
+	       String msg=null;
+	       String mid=request.getParameter("sid");
+	       int id = Integer.parseInt(mid);
+		   String name=request.getParameter("name");
+		   String gender=request.getParameter("gender");
+		   String username=request.getParameter("username");
+		   String contact=request.getParameter("contact");
+		   String email=request.getParameter("email");
+		   String pwd=username;
+		   
+		   byte[] bytes = file.getBytes();
+			  Blob blob = new javax.sql.rowset.serial.SerialBlob(bytes);
+		  
+			    	Member mem=new Member();
+			    	mem.setId(id);
+			    	mem.setName(name);
+			    	mem.setGender(gender);
+			    	mem.setEmail(email);
+			     	mem.setUsername(username);
+			    	mem.setContactno(contact);
+			    	mem.setPassword(username);
+			    	mem.setImage(blob);			    	
+			    	msg=memberService.memregistration(mem);
+			    	String fileName = "invite.html"; // Correct file name
+			    	String filePath = request.getServletContext().getRealPath("/" + fileName);
+			    	
+					String fromEmail = "mahikiran.b@gmail.com"; // Set your email
+		            String toEmail = email; // Use the user's email from the booking
+		            String subject = "Let's Learn Community!";
+		            String text ="You are Welcome !  Successfully Registered with Let's Learn !!";
+		            String password=" Your Account Password is "+ pwd +".  Kindly Don't share with anyone !";
+
+		            String htmlContent = new String(Files.readAllBytes(Paths.get(filePath)));
+		            htmlContent = htmlContent.replace("[name]", name);
+		            htmlContent = htmlContent.replace("[text]", text);
+		            htmlContent=htmlContent.replace("[password]", password);
+	          
+		            emailManager.sendEmail(fromEmail, toEmail, subject, text,htmlContent);
+		            mv.setViewName("memlogin");
+					mv.addObject("message", msg);
+					
+             
+	
+		   mv.setViewName("memberreg");
+		   mv.addObject("message", msg);
+		   
+	  
+	   return mv;
+	   
+   }
+   
+   
+   
+   @GetMapping("displayprofile")
+   public ResponseEntity<byte[]> displayprofileimage(@RequestParam("id") int id) throws IOException, SQLException
+   {
+     Member mem =  memberService.viewmembyid(id);
+     byte [] imageBytes = null;
+     imageBytes = mem.getImage().getBytes(1,(int) mem.getImage().length());
+
+     return ResponseEntity.ok().contentType(MediaType.IMAGE_JPEG).body(imageBytes);
+   }
+
+   @PostMapping("checkmemlogin")
+   public ModelAndView checklogin(HttpServletRequest request)
+   {
+	   ModelAndView mv=new ModelAndView();
+	   String email=request.getParameter("email");
+	   String password=request.getParameter("password");
+	   String userEnteredCaptcha = request.getParameter("captcha");
+	   Member mem=memberService.checkmemberlogin(email, password);
+	   HttpSession session =request.getSession();
+	   String storedCaptcha = (String) session.getAttribute("captchaCode");
+	    if(mem!=null && userEnteredCaptcha.equals(storedCaptcha))
+	    {
+		   session.setAttribute("memid", mem.getId());
+		   session.setAttribute("memuname",mem.getUsername());
+		   mv.setViewName("memberhome");
+	   }
+	   else {
+		   mv.setViewName("memlogin");
+		   mv.addObject("message", "Invalid Credentials !!");
+	   }
+	   return mv;
+	   
+   }
+   
+   
+   @GetMapping("book/{filename}")
+   public ModelAndView viewbookDetails( @PathVariable("filename") String filename) {
+	   ModelAndView mv=new ModelAndView();
+      Book book=memberService.getbookbyName(filename);
+      
+      if(book!=null) {
+    	  mv.setViewName("bookdetails");
+    	  mv.addObject("book", book);
+    	  return mv;
+      }
+      else {
+    	  String msg="Book Not Found";
+    	  mv.setViewName("booknotfound");
+    	  mv.addObject("book", msg);
+      }
+      
+      return mv;
+   }
+      
+   
+   @GetMapping("/download/{filename}")
+   public ResponseEntity<byte[]> downloadBook(@PathVariable("filename") String fileName) {
+       Book book = memberService.getbookbyName(fileName);
+
+       if (book != null) {
+           byte[] response = book.getBfileContent();
+           return ResponseEntity.ok()
+                   .contentType(MediaType.parseMediaType("application/pdf"))
+                   .header(
+                           HttpHeaders.CONTENT_DISPOSITION,
+                           "attachment; filename=\"" + fileName +".pdf"+ "\""
+                   )
+                   .body(response);
+       } else {
+           return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+       }
+   }
+   
+   
+
+   @GetMapping("memberhome")
+   public ModelAndView memberhome() {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("memberhome");
+	   return mv;
+   }
+   
+   
+   @GetMapping("findabook")
+   public ModelAndView findabook() {
+	   ModelAndView mv=new ModelAndView("findabook");
+	   return mv;
+	   
+   }
+   
+ 
+   @GetMapping("updateprofile")
+   public ModelAndView updateProfile(HttpServletRequest request)
+   {
+     ModelAndView mv=new ModelAndView();
+     mv.setViewName("updateprofile");
+
+     HttpSession session=request.getSession();
+     session.setAttribute("memid", session.getAttribute("memid"));
+     
+   
+     int id=(int) session.getAttribute("memid");
+     
+     Member mem=memberService.viewmembyid(id);
+     mv.addObject("memdata",mem);
+     return mv;
+   }
+   
+   
+   @PostMapping("update")
+   public ModelAndView updateAction(HttpServletRequest request, @RequestParam("profile") MultipartFile file)throws IOException, SerialException, SQLException {
+       String msg = null;
+       ModelAndView mv = new ModelAndView();
+       HttpSession session = request.getSession();
+       int id = (int) session.getAttribute("memid");
+
+       try {
+           String name = request.getParameter("name");
+           String username = request.getParameter("username");
+           String pwd = request.getParameter("pwd");
+           String contactno = request.getParameter("contact");
+           byte[] bytes = file.getBytes();
+		   Blob blob = new javax.sql.rowset.serial.SerialBlob(bytes);
+           
+
+           Member mem = new Member();
+           mem.setId(id); 
+           mem.setName(name);
+           mem.setUsername(username);
+           mem.setPassword(pwd);
+           mem.setContactno(contactno);
+           mem.setImage(blob);	
+
+           memberService.updateMember(mem);
+           
+           Member updatedMem = memberService.viewmembyid(id);
+           
+           session.setAttribute("memdata", updatedMem);
+           
+           mv.addObject("memdata", updatedMem);
+           mv.addObject("message", "Profile Updated Successfully");
+           mv.setViewName("updateprofile");
+
+           return mv;
+       } 
+       catch (Exception e) {
+           msg = e.getMessage();
+           mv.setViewName("displayerror");
+           mv.addObject("message", e);
+           return mv;
+       }
+   }
+
+
+   
+   @GetMapping("requestabook")
+   public ModelAndView requestabook() {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("requestabook");
+	   return mv;
+   }
+   
+//   @GetMapping("viewallbooks")
+//   public ModelAndView viewallbooks() {
+//	   ModelAndView mv=new ModelAndView();
+//	   List<Book> books=memberService.viewallbooks();
+//	   mv.setViewName("viewallbooks");
+//	   mv.addObject("bdata", books);
+//	   return mv;
+//   }
+   
+   @GetMapping("viewallbooks")
+   public ModelAndView viewallbooks(@RequestParam(defaultValue = "1") int page) {
+       ModelAndView mv = new ModelAndView();
+       int itemsPerPage = 8; // Number of products per page
+       List<Book> allBooks = memberService.viewallbooks();
+       int totalBooks = allBooks.size();
+       int totalPages = (int) Math.ceil((double) totalBooks / itemsPerPage);
+
+       // Calculate start and end index for the current page
+       int startIndex = (page - 1) * itemsPerPage;
+       int endIndex = Math.min(startIndex + itemsPerPage, totalBooks);
+       
+       // Get the subset of books for the current page
+       List<Book> booksSubset = allBooks.subList(startIndex, endIndex);
+
+       mv.setViewName("viewallbooks");
+       mv.addObject("bdata", booksSubset); // Passing the subset of books to the view
+       mv.addObject("currentPage", page);
+       mv.addObject("totalPages", totalPages);
+       return mv;
+   }
+
+   
+   
+   
+  
+
+   @PostMapping("request")
+   public ModelAndView requestBook(HttpServletRequest request) 
+   {
+	   ModelAndView mv=new ModelAndView("requestabook");
+	   HttpSession session = request.getSession();
+       int id = (int) session.getAttribute("memid");
+       
+       String bname=request.getParameter("bookName");
+       String year=request.getParameter("year");
+       String author=request.getParameter("author");
+       String publisher=request.getParameter("publisher");
+       Optional<BookRequests> obj=memberService.findbookbyname(bname);
+       if(!obj.isPresent()) {
+       BookRequests br=new BookRequests();
+       br.setCid(id);
+       br.setBookName(bname);
+       br.setYear(year);
+       br.setPublisher(publisher);
+       br.setStatus(false);
+       br.setAuthor(author);
+       
+       String msg=memberService.requestabook(br);
+       mv.addObject("memid",id);
+       mv.addObject("message", msg);
+       }else {
+           mv.addObject("memid",id);
+           mv.addObject("message", "Request For Book is Already Sent Before !!");
+       }
+       return mv;
+   }
+   
+   
+   @GetMapping("viewmyrequests")
+   public ModelAndView viewmyrequests(HttpServletRequest request) {
+	   ModelAndView mv=new ModelAndView();
+	   mv.setViewName("viewmyrequests");
+	   HttpSession session =request.getSession();
+	   session.setAttribute("mid",session.getAttribute("memid"));
+       int id = (int) session.getAttribute("mid");
+	   List<BookRequests> br=memberService.viewallBookRequestsbyid(id);
+	   mv.addObject("reqdata", br);
+	   return mv;
+	   
+   }
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+}

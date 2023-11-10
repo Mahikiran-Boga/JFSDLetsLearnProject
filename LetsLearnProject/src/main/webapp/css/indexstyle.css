@@ -1,0 +1,425 @@
+@charset "UTF-8";
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+    z-index: 1000; /* Make sure the navigation bar is above other content */
+
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+nav.sticky{
+  padding: 15px 20px;
+  background: #FFFFFF;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #000000;
+   margin-left: 0  ;
+}
+nav.sticky .logo a{
+  color: #000000;
+   margin-left: 0  ;
+}
+.nav-content .nav-links{
+  display: flex;
+  margin-right:0;
+
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+  margin-left: 0  ;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #0E2431;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+ .nav-links li a:hover{
+   color: #000000;
+ }
+ nav.sticky .nav-links li a{
+   color: #000000;
+   transition: all 0.4s ease;
+}
+ nav.sticky .nav-links li a:hover{
+  color: #0E2431;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/images/lib3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+h2{
+  font-size: 30px;
+  margin-bottom: 6px;
+  color: #000000
+  ;
+}
+.text{
+  text-align: justify;
+  padding: 40px 80px;
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Style for the footer */
+.footer-distributed{
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  white;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #000000;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:white;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  white;
+  color: white;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+  
+
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.section_title {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.section_details {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.our_service_section {
+    background-color: white;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: black;
+    position: relative;
+    padding: 100px 20px;
+}
+
+.our_service_section>* {
+    position: relative;
+    z-index: 1;
+}
+
+
+.our_service_section>.single_service_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    justify-content: center;
+    gap: 90px;
+    margin-top: 80px;
+}
+
+.our_service_section>.single_service_container>.single_service {
+    max-width: 450px;
+    background-color:#fcefef;
+    padding: 25px 30px;
+    border-radius: 6px 6px 0px 6px;
+    box-shadow: 0 5px 16px #0008;
+
+    transition: 0.3s ease-in-out;
+}
+
+.our_service_section>.single_service_container>.single_service .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.our_service_section>.single_service_container>.single_service .top .icon {
+    background: white;
+    display: inline-block;
+    min-width: 100px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #ffffff5d;
+    box-shadow: 0 5px 10px #0003;
+    transition: 0.3s ease-in-out;
+}
+
+.our_service_section>.single_service_container>.single_service .top .text {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.our_service_section>.single_service_container>.single_service .top .text .__one,
+.our_service_section>.single_service_container>.single_service .top .text .__two {
+    margin:15px;
+}
+
+.our_service_section>.single_service_container>.single_service .top .text .__one {
+    color: black;
+}
+
+.our_service_section>.single_service_container>.single_service .top .text .__two {
+    font-size: 22px;
+    color: black;
+}
+
+.our_service_section>.single_service_container>.single_service .bottom {
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.our_service_section>.single_service_container>.single_service:hover {
+    background-color: pink;
+}
+
+/* Existing styles */
+
+@media (max-width: 880px) {
+
+  
+
+
+  .footer-distributed {
+    font-size: 14px;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+
+  .our_service_section>.single_service_container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin-top: 50px;
+  }
+
+  .our_service_section>.single_service_container>.single_service {
+    max-width: 100%;
+  }
+}

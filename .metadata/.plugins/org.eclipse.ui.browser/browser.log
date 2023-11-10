@@ -1,0 +1,258 @@
+
+Oct 06, 2023 11:37:09.943 NEW SESSION
+Oct 06, 2023 11:37:09.943 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 06, 2023 11:37:13.954 [27692:2912:1006/113713.952:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 11:37:13.955 [27692:2912:1006/113713.952:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 11:37:13.956 [27692:2912:1006/113713.952:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 11:37:13.956 [27692:2912:1006/113713.952:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+
+Oct 06, 2023 18:43:12.847 NEW SESSION
+Oct 06, 2023 18:43:12.847 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 06, 2023 20:24:23.596 [11688:28300:1006/202423.595:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 20:40:48.661 [11688:28300:1006/204048.660:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 20:40:48.661 [11688:28300:1006/204048.661:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 20:41:03.213 [11688:28300:1006/204103.212:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 20:41:03.213 [11688:28300:1006/204103.212:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 20:41:04.657 [11688:28300:1006/204104.657:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 20:41:04.659 [11688:28300:1006/204104.657:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 21:03:49.99 [11688:28300:1006/210349.099:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 21:03:49.100 [11688:28300:1006/210349.099:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 21:14:48.758 [11688:28300:1006/211448.757:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Oct 06, 2023 21:14:48.769 [11688:28300:1006/211448.766:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Oct 06, 2023 21:40:03.681 [11688:13396:1006/214003.680:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 21:40:03.681 [11688:13396:1006/214003.680:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 21:40:03.682 [11688:13396:1006/214003.681:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 21:40:03.682 [11688:13396:1006/214003.681:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 06, 2023 21:49:19.855 [11688:13396:1006/214919.855:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Oct 06, 2023 21:57:00.23 [11688:28300:1006/215700.022:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 21:57:00.23 [11688:28300:1006/215700.023:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 06, 2023 22:02:33.514 [11688:28300:1006/220233.513:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Oct 06, 2023 22:02:33.515 [11688:28300:1006/220233.514:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Oct 06, 2023 22:10:54.301 [11688:28300:1006/221054.301:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Oct 06, 2023 22:10:54.311 [11688:28300:1006/221054.311:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Oct 06, 2023 22:11:18.10 [11688:28300:1006/221118.010:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Oct 06, 2023 22:11:18.11 [11688:28300:1006/221118.010:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Oct 10, 2023 21:50:20.898 NEW SESSION
+Oct 10, 2023 21:50:20.898 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Oct 12, 2023 15:58:15.40 NEW SESSION
+Oct 12, 2023 15:58:15.40 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 12, 2023 16:50:01.01 [23128:26060:1012/165001.001:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 12, 2023 16:50:01.02 [23128:26060:1012/165001.001:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 12, 2023 16:50:01.02 [23128:26060:1012/165001.001:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 12, 2023 16:50:01.02 [23128:26060:1012/165001.001:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 12, 2023 17:22:21.193 [23128:23996:1012/172221.192:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 12, 2023 17:30:13.58 [23128:11328:1012/173013.058:ERROR:cert_verify_proc_builtin.cc(701)] CertVerifyProcBuiltin for fiachras.ie failed:
+Oct 12, 2023 17:30:13.59 ----- Certificate i=0 (CN=fiachras.ie) -----
+Oct 12, 2023 17:30:13.59 ERROR: No matching issuer found
+Oct 12, 2023 17:30:13.59 
+Oct 12, 2023 17:30:13.60 
+Oct 12, 2023 17:48:50.587 [23128:23996:1012/174850.587:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 12, 2023 18:03:46.245 [23128:23996:1012/180346.245:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Oct 12, 2023 18:06:04.414 [23128:23996:1012/180604.414:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Oct 12, 2023 22:50:06.162 NEW SESSION
+Oct 12, 2023 22:50:06.163 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 12, 2023 22:51:16.430 [10964:10520:1012/225116.430:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint (unset) for first_image_paint 0.285 s
+
+Oct 13, 2023 22:49:07.531 NEW SESSION
+Oct 13, 2023 22:49:07.531 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Oct 13, 2023 23:40:39.269 NEW SESSION
+Oct 13, 2023 23:40:39.269 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 13, 2023 23:58:54.545 [18008:21860:1013/235854.545:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 13, 2023 23:58:54.546 [18008:21860:1013/235854.545:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 13, 2023 23:58:54.547 [18008:21860:1013/235854.545:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 13, 2023 23:58:54.548 [18008:21860:1013/235854.545:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Oct 13, 2023 23:59:36.104 [18008:21860:1013/235936.103:ERROR:device_event_log_impl.cc(225)] [23:59:36.102] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Oct 14, 2023 14:02:56.536 NEW SESSION
+Oct 14, 2023 14:02:56.537 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 14, 2023 14:05:01.553 [2360:16536:1014/140501.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Oct 14, 2023 14:05:01.553 [2360:16536:1014/140501.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Oct 14, 2023 14:05:01.554 [2360:16536:1014/140501.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Oct 14, 2023 14:05:01.554 [2360:16536:1014/140501.553:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+
+Oct 15, 2023 01:09:47.988 NEW SESSION
+Oct 15, 2023 01:09:47.988 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 15, 2023 01:16:19.386 [22592:4720:1015/011619.384:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+Oct 15, 2023 06:25:02.424 NEW SESSION
+Oct 15, 2023 06:25:02.424 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 15, 2023 06:40:46.553 [31588:31156:1015/064046.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Oct 15, 2023 06:40:46.554 [31588:31156:1015/064046.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Oct 15, 2023 06:40:46.555 [31588:31156:1015/064046.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Oct 15, 2023 06:40:46.555 [31588:31156:1015/064046.552:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+
+Oct 16, 2023 24:04:12.328 NEW SESSION
+Oct 16, 2023 24:04:12.328 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+Oct 18, 2023 22:09:58.866 NEW SESSION
+Oct 18, 2023 22:09:58.866 [25416:24448:1018/220958.864:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 18, 2023 22:09:58.868 [25416:24448:1018/220958.866:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Oct 23, 2023 15:53:20.366 NEW SESSION
+Oct 23, 2023 15:53:20.366 [17156:29136:1023/155320.360:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 15:53:48.266 [17156:29136:1023/155348.266:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 15:54:47.230 [17156:29136:1023/155447.229:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 15:56:48.162 [17156:29136:1023/155648.161:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 16:00:25.735 [17156:29136:1023/160025.734:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Oct 23, 2023 16:14:40.55 [17156:29136:1023/161440.054:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 16:15:05.18 [17156:29136:1023/161505.018:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 16:22:11.307 [17156:5900:1023/162211.306:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Oct 23, 2023 16:22:11.308 [17156:5900:1023/162211.306:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Oct 23, 2023 16:22:11.309 [17156:5900:1023/162211.306:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Oct 23, 2023 16:22:11.309 [17156:5900:1023/162211.306:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Oct 23, 2023 16:28:02.899 [17156:5900:1023/162802.898:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Oct 23, 2023 16:29:40.664 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Oct 23, 2023 16:44:01.119 [17156:29136:1023/164401.118:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 23, 2023 17:28:01.133 [17156:29136:1023/172801.132:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 23, 2023 17:45:31.172 [17156:29136:1023/174531.170:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 23, 2023 17:46:23.11 [17156:29136:1023/174623.011:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 23, 2023 18:59:47.984 [17156:29136:1023/185947.984:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Oct 23, 2023 18:59:49.991 [17156:29136:1023/185949.991:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Oct 23, 2023 18:59:59.81 [17156:29136:1023/185959.080:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 23, 2023 19:30:24.176 [17156:5900:1023/193024.176:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Oct 28, 2023 17:45:50.719 NEW SESSION
+Oct 28, 2023 17:45:50.721 [26832:28508:1028/174550.716:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 28, 2023 17:45:50.724 [26832:28508:1028/174550.720:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Oct 28, 2023 17:45:50.784 [26832:28508:1028/174550.784:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Oct 28, 2023 17:45:50.785 [26832:28508:1028/174550.784:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Nov 01, 2023 13:36:10.641 NEW SESSION
+Nov 01, 2023 13:36:10.641 [10152:16300:1101/133610.639:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+Nov 01, 2023 13:36:14.446 [10152:28392:1101/133614.445:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 01, 2023 13:36:14.494 [10152:28392:1101/133614.493:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 01, 2023 13:54:55.844 [10152:28392:1101/135455.843:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 01, 2023 14:15:38.367 [10152:28392:1101/141538.363:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 01, 2023 14:24:40.408 [10152:28392:1101/142440.408:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 01, 2023 14:26:28.104 [10152:28392:1101/142628.102:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+
+Nov 03, 2023 12:21:27.519 NEW SESSION
+Nov 03, 2023 12:21:27.519 [36856:16468:1103/122127.515:ERROR:page_load_metrics_update_dispatcher.cc(179)] Invalid first_paint (unset) for first_image_paint 0.153 s
+Nov 03, 2023 12:39:50.22 [36856:6996:1103/123950.021:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 13:48:47.127 [36856:6996:1103/134847.126:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 03, 2023 13:49:14.294 [36856:6996:1103/134914.293:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 03, 2023 13:50:33.785 [36856:6996:1103/135033.784:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 03, 2023 14:21:49.600 [36856:6996:1103/142149.600:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 03, 2023 14:50:01.305 [36856:6996:1103/145001.304:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 14:54:31.119 [36856:6996:1103/145431.119:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 15:04:31.134 [36856:6996:1103/150431.133:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 15:12:07.924 [36856:6996:1103/151207.924:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 03, 2023 15:36:29.698 [36856:6996:1103/153629.697:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 03, 2023 15:36:57.433 [36856:6996:1103/153657.432:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 03, 2023 15:37:48.672 [36856:6996:1103/153748.672:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 03, 2023 15:39:29.442 [36856:6996:1103/153929.442:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 03, 2023 15:43:03.298 [36856:6996:1103/154303.297:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 03, 2023 15:45:40.598 [36856:6996:1103/154540.597:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 03, 2023 16:43:58.114 [36856:6996:1103/164358.113:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 16:59:42.704 [36856:6996:1103/165942.703:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 03, 2023 17:14:18.785 [36856:6996:1103/171418.785:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 03, 2023 18:26:57.344 [36856:16468:1103/182657.343:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 03, 2023 18:26:57.345 [36856:16468:1103/182657.343:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 03, 2023 18:26:57.345 [36856:16468:1103/182657.343:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 03, 2023 18:26:57.346 [36856:16468:1103/182657.344:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 03, 2023 18:27:00.255 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+Nov 03, 2023 18:31:14.254 [36856:6996:1103/183114.254:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 18:31:14.318 [36856:6996:1103/183114.316:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 03, 2023 18:31:14.328 [36856:6996:1103/183114.328:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 18:32:57.173 [36856:16468:1103/183257.173:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+
+Nov 03, 2023 20:57:07.743 NEW SESSION
+Nov 03, 2023 20:57:07.743 [34188:34036:1103/205707.742:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+Nov 03, 2023 20:57:07.744 [34188:34036:1103/205707.742:ERROR:interface_endpoint_client.cc(702)] Message 1 rejected by interface blink.mojom.WidgetHost
+Nov 03, 2023 20:59:49.24 [34188:34036:1103/205949.023:ERROR:CONSOLE(32)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (32)
+Nov 03, 2023 20:59:49.24 [34188:34036:1103/205949.024:ERROR:CONSOLE(32)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (32)
+Nov 03, 2023 20:59:49.24 [34188:34036:1103/205949.024:ERROR:CONSOLE(32)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (32)
+Nov 03, 2023 20:59:49.25 [34188:34036:1103/205949.024:ERROR:CONSOLE(32)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (32)
+Nov 03, 2023 21:09:52.627 [34188:24540:1103/210952.626:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 21:09:52.656 [34188:24540:1103/210952.655:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -105
+Nov 03, 2023 21:14:44.762 [34188:34036:1103/211444.761:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 03, 2023 21:14:44.763 [34188:34036:1103/211444.762:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 03, 2023 21:37:34.291 [34188:24540:1103/213734.290:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 03, 2023 22:17:57.235 [34188:34036:1103/221757.234:ERROR:device_event_log_impl.cc(225)] [22:17:57.234] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 03, 2023 22:17:57.381 [34188:34036:1103/221757.381:ERROR:device_event_log_impl.cc(225)] [22:17:57.380] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 03, 2023 22:17:57.392 [34188:34036:1103/221757.392:ERROR:device_event_log_impl.cc(225)] [22:17:57.391] USB: usb_service_win.cc:307 SetupDiEnumDeviceInterfaces: No more data is available. (0x103)
+Nov 03, 2023 22:42:58.42 [34188:34036:1103/224258.042:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 03, 2023 22:42:58.43 [34188:34036:1103/224258.042:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 03, 2023 22:42:58.43 [34188:34036:1103/224258.042:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 03, 2023 22:42:58.45 [34188:34036:1103/224258.042:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+
+Nov 04, 2023 09:43:55.521 NEW SESSION
+Nov 04, 2023 09:43:55.521 [356:29688:1104/094355.519:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+Nov 04, 2023 10:04:18.16 [356:29296:1104/100418.015:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 10:10:48.03 [356:29296:1104/101048.002:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 10:16:17.973 [356:29296:1104/101617.972:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 10:21:48.11 [356:29296:1104/102148.010:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 10:31:36.38 [356:29688:1104/103136.036:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 10:31:36.39 [356:29688:1104/103136.036:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 10:31:36.39 [356:29688:1104/103136.038:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 10:31:36.40 [356:29688:1104/103136.038:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 10:43:55.678 [356:29688:1104/104355.677:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 04, 2023 12:34:00.223 [356:29296:1104/123400.221:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 13:53:05.443 [356:29296:1104/135305.443:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 04, 2023 13:53:09.886 [356:32160:1104/135309.885:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+Nov 04, 2023 13:53:28.493 [356:29296:1104/135328.493:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 15:07:04.706 [356:29296:1104/150704.705:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 16:18:34.673 [356:29296:1104/161834.672:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 16:30:04.664 [356:29296:1104/163004.664:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 16:30:56.552 [356:29296:1104/163056.551:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 16:35:55.248 [356:29688:1104/163555.248:ERROR:interface_endpoint_client.cc(702)] Message 0 rejected by interface blink.mojom.WidgetHost
+Nov 04, 2023 17:29:04.698 [356:29296:1104/172904.697:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 17:36:10.54 [356:29296:1104/173610.054:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 17:49:47.841 [356:29296:1104/174947.841:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 04, 2023 17:50:20.926 [356:29296:1104/175020.926:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 17:51:25.375 [356:29296:1104/175125.375:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 04, 2023 17:52:49.755 [356:29296:1104/175249.753:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 17:57:09.382 [356:29296:1104/175709.381:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 04, 2023 18:10:09.581 [356:29296:1104/181009.580:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 18:10:10.555 [356:32160:1104/181010.554:ERROR:get_updates_processor.cc(261)] PostClientToServerMessage() failed during GetUpdates with error 2
+Nov 04, 2023 19:02:55.378 [356:29296:1104/190255.378:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 19:30:54.313 [356:29688:1104/193054.312:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 19:30:54.313 [356:29688:1104/193054.312:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 19:30:54.314 [356:29688:1104/193054.312:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 19:30:54.314 [356:29688:1104/193054.312:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 19:39:25.406 [356:29296:1104/193925.405:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 04, 2023 19:54:59.748 [356:29296:1104/195459.748:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -7
+Nov 04, 2023 21:19:12.109 [356:29296:1104/211912.107:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -200
+Nov 04, 2023 21:20:23.204 [356:29296:1104/212023.203:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 04, 2023 21:36:42.646 [356:29688:1104/213642.646:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 04, 2023 21:36:42.647 [356:29688:1104/213642.646:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 04, 2023 21:36:42.648 [356:29688:1104/213642.646:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 04, 2023 21:36:42.648 [356:29688:1104/213642.646:ERROR:CONSOLE(39)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (39)
+Nov 04, 2023 21:42:31.327 [356:29688:1104/214231.326:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 21:42:31.328 [356:29688:1104/214231.326:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 21:42:31.329 [356:29688:1104/214231.326:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 21:42:31.329 [356:29688:1104/214231.326:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 21:49:02.631 [356:29688:1104/214902.631:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 04, 2023 22:25:30.881 [356:29688:1104/222530.880:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Nov 04, 2023 22:25:30.881 [356:29688:1104/222530.881:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Nov 04, 2023 22:25:30.882 [356:29688:1104/222530.882:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Nov 04, 2023 22:25:30.882 [356:29688:1104/222530.882:ERROR:CONSOLE(5)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (5)
+Nov 04, 2023 23:32:20.359 [2876:25984:1104/233220.359:ERROR:CONSOLE(54)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (54)
+Nov 04, 2023 23:32:20.360 [2876:25984:1104/233220.359:ERROR:CONSOLE(54)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (54)
+Nov 04, 2023 23:32:20.360 [2876:25984:1104/233220.359:ERROR:CONSOLE(54)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (54)
+Nov 04, 2023 23:32:20.361 [2876:25984:1104/233220.360:ERROR:CONSOLE(54)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (54)
+Nov 04, 2023 23:33:17.47 [2876:25984:1104/233317.047:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 23:33:17.48 [2876:25984:1104/233317.047:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 23:33:17.48 [2876:25984:1104/233317.047:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 04, 2023 23:33:17.49 [2876:25984:1104/233317.047:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 01:52:43.451 [16816:8712:1105/015243.450:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 01:52:43.452 [16816:8712:1105/015243.450:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 01:52:43.452 [16816:8712:1105/015243.450:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 01:52:43.452 [16816:8712:1105/015243.450:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 02:00:15.674 [16816:8712:1105/020015.674:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 05, 2023 02:08:15.930 [16816:38940:1105/020815.929:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 05, 2023 02:08:24.40 [16816:38940:1105/020824.039:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+Nov 05, 2023 02:13:00.462 [16816:8712:1105/021300.461:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 05, 2023 02:13:00.462 [16816:8712:1105/021300.461:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 05, 2023 02:13:00.463 [16816:8712:1105/021300.461:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 05, 2023 02:13:00.463 [16816:8712:1105/021300.461:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 05, 2023 02:13:00.464 [16816:8712:1105/021300.461:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)
+Nov 05, 2023 02:37:14.134 [16816:8712:1105/023714.134:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 02:37:14.135 [16816:8712:1105/023714.134:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 02:37:14.135 [16816:8712:1105/023714.134:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 02:37:14.137 [16816:8712:1105/023714.134:ERROR:CONSOLE(52)] "Unchecked runtime.lastError: The message port closed before a response was received.", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (52)
+Nov 05, 2023 02:45:07.548 [16816:8712:1105/024507.547:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received", source: https://ogs.google.com/u/0/widget/app?awwd=1&gm3=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=app&pid=1&spid=243&hl=en (0)

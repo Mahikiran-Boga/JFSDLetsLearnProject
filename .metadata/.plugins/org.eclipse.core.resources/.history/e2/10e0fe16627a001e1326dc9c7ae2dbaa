@@ -1,0 +1,28 @@
+package com.klef.jfsd.springboot.service;
+
+import java.util.List;
+
+import com.klef.jfsd.springboot.model.Admin;
+import com.klef.jfsd.springboot.model.Employee;
+import com.klef.jfsd.springboot.model.Member;
+
+public interface AdminService {
+public Admin checkadminlogin(String email,String pwd );
+public long empcount();
+public long usercount();
+public long bookcount();
+public String deleteEmp(int id);
+public String addemployee(Employee emp);
+
+//public long countBookRequestsR();
+//public long countBookRequestsA();
+public long bookrequestscount();
+public String Addmember(Member mem);
+public String deleteUser(int id);
+public List<Employee> viewallemployees(); 
+public int updateempstatus(int eid,boolean status);
+
+
+
+
+}

@@ -1,0 +1,199 @@
+/* Colors */
+body {
+  background-color: #ece0e8;
+  color: #000;
+}
+
+.artboard {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  height: 100%;
+  position: relative;
+}
+
+.card {
+  flex: initial;
+  position: relative;
+  height: 20rem;
+  width: 15rem;
+  -moz-perspective: 200rem;
+  perspective: 200rem;
+  margin: 2rem;
+}
+
+.card__side {
+  height: 22rem;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.15);
+}
+
+.card__side--front {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(88, 81, 81, 0.65),
+      rgba(83, 83, 83, 0.945)
+  ),
+  url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
+}
+
+.card__side--back {
+  background: white;
+  transform: rotateY(180deg);
+}
+
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+
+.card__theme {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.card__theme-box {
+  color: #fff;
+  margin-bottom: 8rem;
+}
+
+.card__subject {
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 0rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.card__title {
+  font-family: "VT323", monospace;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 50;
+}
+
+.card__cover {
+  position: relative;
+  background-size: cover;
+  height: 5rem;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-image: linear-gradient(
+      to top right,
+      rgba(88, 81, 81, 0.65),
+      rgba(83, 83, 83, 0.945)
+  ),
+  url(https://cdn.spacetelescope.org/archives/images/screen/heic0406a.jpg);
+}
+
+.card__heading {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 10%;
+}
+
+
+
+.card__details {
+  font-family: "Inconsolata", monospace;
+
+}
+
+.card__details ul {
+ 
+  margin: 0 auto;
+  text-align: left;
+}
+
+.card__details ul li {
+  text-align: left;
+  font-size: 1rem;
+  padding: 0.4rem;
+  border-bottom: 0px solid #e6b5da;
+}
+
+/* Responsivity */
+
+/* Responsivity */
+@media only screen and (max-width: 10.5em), only screen and (hover: none) {
+  .artboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .card {
+    flex: 0 0 calc(20% - 2rem);
+    margin: 1rem;
+    margin-left: 0px;
+  }
+
+
+ 
+
+  .card__theme-box {
+    margin-bottom: 1.5rem;
+  }
+
+  .card__title {
+    font-size: 4rem;
+  }
+}
+
+
+
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flip-btn {
+  width: 150px;
+  height: 40px;
+  background-color:rgb(101, 97, 97);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  border-radius: 5px;
+}
+
+.flip-btn:hover {
+  transform: rotateY(60deg);
+}
+
+/* Back face of the button */
+.flip-btn::after {
+  content: 'Hover Me';
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
